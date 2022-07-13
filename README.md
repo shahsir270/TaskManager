@@ -17,20 +17,20 @@ You can clone this Api and use it for Your web application
 
 #### register user
 
-```http
+```
   POST  /auth/register/
 ```
 
 #### login user
 
-```http
+```
   POST  /auth/login/
 
   message: it gives token and use this token for autherization
 ```
 #### create Team
 
-```http
+```
   GET  /auth/create/team/
   message: it gives team leaders and team members details to create team
 
@@ -40,7 +40,7 @@ You can clone this Api and use it for Your web application
 ```
 #### create Task
 
-```http
+```
   GET  /create/task/
   message: it gives teams and team leaders details to create task
 
@@ -51,7 +51,7 @@ You can clone this Api and use it for Your web application
 ```
 #### Update Task
 
-```http
+```
   GET  /update/<int:id>/task/
   message: it gives task with deatils
 
@@ -61,7 +61,7 @@ You can clone this Api and use it for Your web application
 ```
 #### Update Status of Task 
 
-```http
+```
   GET   /status/update/<int:id>/task/
   message: it gives status of Task to change
 
@@ -71,7 +71,7 @@ You can clone this Api and use it for Your web application
 ```
 #### Task List
 
-```http
+```
   GET  /
   message: it gives all task which are created
 
